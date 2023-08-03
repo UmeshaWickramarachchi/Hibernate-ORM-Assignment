@@ -35,14 +35,14 @@ public class Main {
 
 
         //update book details
-//        book.setBook_name("The Hunter");
-//        book.setAuthor("Jennifer Herrera");
-//        book.setTitle("Horror");
-//        book.setIsbn("ISBN 978-3-16-13456-0");
-//        session.persist(book);
-//
-//        //delete book
-//        session.remove(book);
+        book.setBook_name("The Hunter");
+        book.setAuthor("Jennifer Herrera");
+        book.setTitle("Horror");
+        book.setIsbn("ISBN 978-3-16-13456-0");
+        session.persist(book);
+
+        //delete book
+        session.remove(book);
 
         transaction.commit();
         session.close();
